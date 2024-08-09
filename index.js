@@ -6,7 +6,7 @@ app.get('/',(req,res)=>{
 	res.json({name:"Ready made"})
 })
 
-app.get("/contact",(req,res)=>{
+app.get("/home",(req,res)=>{
 	res.send("i ma home oka")
 })
 
