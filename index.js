@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get("/home",(req,res)=>{
-	res.send("i ma home okay")
+	res.send("i ma home oka")
 })
 
 app.listen(port)
