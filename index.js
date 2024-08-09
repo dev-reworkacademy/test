@@ -6,5 +6,8 @@ app.get('/',(req,res)=>{
 	res.json({name:"Ready made"})
 })
 
+app.get("/home",(req,res)=>{
+	res.send("i ma home")
+})
 
 app.listen(port)
