@@ -10,4 +10,8 @@ app.get("/home",(req,res)=>{
 	res.send("i am home and okay")
 })
 
+app.get("/contact",(req,res)=>{
+	res.send("summertide sunday at 6pm")
+})
+
 app.listen(port)
