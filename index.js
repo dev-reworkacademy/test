@@ -14,6 +14,5 @@ app.get("/contact",(req,res)=>{
    res.send("summertide sunday at 6pm")
 })
 
-
 app.listen(port)
 console.log("App running on port:"+port)
