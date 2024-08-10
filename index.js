@@ -11,7 +11,7 @@ app.get("/home",(req,res)=>{
 })
 
 app.get("/contact",(req,res)=>{
-  res.send("summertide sunday at 6pm")
+   res.send("summertide sunday at 6pm")
 })
 
 app.listen(port)
