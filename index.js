@@ -2,7 +2,6 @@ let express = require('express')
 let app = express()
 let port = process.env.PORT || 8000
 
-
 app.get('/',(req,res)=>{
 	res.json({name:"Ready made"})
 })
@@ -14,7 +13,6 @@ app.get("/home",(req,res)=>{
 app.get("/contact",(req,res)=>{
    res.send("summertide sunday at 6pm")
 })
-
 
 app.listen(port)
 console.log("App running on port:"+port)
