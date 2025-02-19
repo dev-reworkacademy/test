@@ -11,3 +11,6 @@ set
 go
 see
 me
+send 
+it
+again
