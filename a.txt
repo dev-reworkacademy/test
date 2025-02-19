@@ -9,3 +9,5 @@ nice
 again
 set
 go
+see
+me
