@@ -1,6 +1,13 @@
+let b = require('./first');
+let x = require('./second');
 let express = require('express')
+
 let app = express()
 let port = process.env.PORT || 8000
+
+b.run();
+x.init();
+
 
 app.get('/',(req,res)=>{
 	res.json({name:"Ready made"})
